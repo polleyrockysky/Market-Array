@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CEEE93971F91F6A000DB42B3 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEE93961F91F6A000DB42B3 /* Logo.png */; };
+		CEEE939B1F91F75200DB42B3 /* cocoDuck1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = CEEE939A1F91F75200DB42B3 /* cocoDuck1.JPG */; };
 		CEFC51441F91F37100F66642 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFC51431F91F37100F66642 /* AppDelegate.swift */; };
 		CEFC51461F91F37100F66642 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFC51451F91F37100F66642 /* ViewController.swift */; };
 		CEFC51491F91F37100F66642 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFC51471F91F37100F66642 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CEEE93961F91F6A000DB42B3 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		CEEE939A1F91F75200DB42B3 /* cocoDuck1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cocoDuck1.JPG; path = ../cocoDuck1.JPG; sourceTree = "<group>"; };
 		CEFC51401F91F37100F66642 /* Market Array 14Oct2017.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Market Array 14Oct2017.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFC51431F91F37100F66642 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEFC51451F91F37100F66642 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 			children = (
 				CEFC51431F91F37100F66642 /* AppDelegate.swift */,
 				CEFC51451F91F37100F66642 /* ViewController.swift */,
+				CEEE93961F91F6A000DB42B3 /* Logo.png */,
+				CEEE939A1F91F75200DB42B3 /* cocoDuck1.JPG */,
 				CEFC51471F91F37100F66642 /* Main.storyboard */,
 				CEFC514A1F91F37100F66642 /* Assets.xcassets */,
 				CEFC514C1F91F37100F66642 /* LaunchScreen.storyboard */,
@@ -125,7 +131,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEFC514E1F91F37100F66642 /* LaunchScreen.storyboard in Resources */,
+				CEEE93971F91F6A000DB42B3 /* Logo.png in Resources */,
 				CEFC514B1F91F37100F66642 /* Assets.xcassets in Resources */,
+				CEEE939B1F91F75200DB42B3 /* cocoDuck1.JPG in Resources */,
 				CEFC51491F91F37100F66642 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +312,7 @@
 				CEFC51541F91F37100F66642 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
